@@ -1,96 +1,118 @@
-Privacy Policy – SwimLog (working title)
+# tracked - pulse&pace
 
-1. General Information
-This privacy policy explains how the SwimLog app (“we”, “our”, “the App”) collects, uses and stores personal data. SwimLog is developed and operated by a private individual (student athlete) based in Austria.
+`tracked - pulse&pace` is a training log app for swimmers and strength athletes.  
+You can log your own sessions and optionally connect Apple Health to see recent workouts and heart rate inside the app.
 
-If you have any questions about this policy, you can contact us at:
-Email: lkorber.perner@gmail.com
-]
+---
 
-2. Data We Collect
+## Support
 
-a) Data you enter manually in the app
+If you have questions, find a bug or want to suggest a feature, you can contact me:
 
-Training sessions (date, distance, duration, notes, sets, weights, etc.)
+- **Email:** [lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com)
 
-Competition results (times, splits, reaction times, stroke counts, notes)
+I read every message, but please note that this is a one-person project, so replies might take a bit of time.
 
-Optional videos you add to a race (stored locally on your device or in your iCloud backup)
+---
 
-b) Data from connected services (optional)
-If you choose to connect third-party services, we may receive:
+## Privacy Policy
 
-Apple Health: heart rate, workouts, calories, other training-related metrics that you explicitly allow via Apple Health permissions.
+_Last updated: December 2025_
 
-Polar Flow: training data (e.g. sessions, heart rate, load metrics) as allowed by Polar’s AccessLink API scopes.
+This app is developed and operated by **Laurin Korber-Perner** (“I”, “me”).  
+I take privacy seriously and try to keep everything as simple as possible.
 
-WHOOP: strain, recovery, sleep and other metrics you explicitly authorize via the WHOOP Developer Platform.
+### 1. Overview
 
-We only access this data to display it in the app and to help you analyze your training and recovery.
+- The app stores your training data **locally on your device**.
+- The app can **read and write data from/to Apple Health (HealthKit)**, if you grant permission.
+- **No account**, **no own cloud server**, **no advertising** and **no third-party analytics** are used in the current version.
 
-3. How We Use Your Data
-We use your data for the following purposes:
+If this changes in the future, this privacy policy will be updated.
 
-To display your trainings, competitions and metrics inside the app
+---
 
-To calculate statistics (volume per week/month/year, pace, FINA points, etc.)
+### 2. Data processed by the app
 
-To compare sessions or races over time if you enable those features
+The app works with the following categories of data:
 
-We do not sell your data to third parties. We do not use your data for advertising.
+1. **Training data you enter**
+   - Swim sessions (date, distance, sets, times, notes)
+   - Strength workouts (exercises, sets, reps, weight, tempo, RPE, notes)
+   - Race performances (event, time, splits, stroke count, notes)
 
-4. Data Storage
+2. **Apple Health (HealthKit) data** (only if you grant permission)
+   - Workouts (for example swimming, running, cycling, strength training)
+   - Distance and duration of workouts
+   - Heart rate data associated with workouts (average and time series), where available
 
-All data you enter in the app is stored locally on your device.
+All this data is stored **locally on your iPhone** in the app’s storage.  
+The app does **not** send this data to any external server that I control.
 
-Optionally, iOS may include this data in backups (e.g. iCloud backup) depending on your device settings.
+---
 
-If you export backups from the app as files, those files are stored wherever you choose (e.g. iCloud Drive, Files app).
+### 3. Apple Health / HealthKit
 
-If we add optional cloud sync in the future (e.g. using iCloud or our own server), we will update this privacy policy accordingly and explain exactly what is stored where.
+The app uses Apple’s HealthKit framework to read and optionally write data.
 
-5. Third-Party Services
-SwimLog may connect to the following services, if you choose to enable them:
+- Health data is **never shared** with third parties by the app.
+- You can control access in the **Apple Health app → Apps → tracked - pulse&pace**.
+- If you withdraw permissions, the app can no longer read new Health data.  
+  Already imported data remains stored locally in the app until you delete the app or use the in-app delete/backup functions.
 
-Apple Health (HealthKit)
-Apple Health is provided by Apple Inc. Apple’s own privacy policies apply to Apple Health data. We only read the data types that you explicitly grant access to. You can revoke access at any time in iOS Settings → Privacy & Security → Health.
+Apple itself processes your Health data under its own privacy policy.  
+Please refer to Apple’s documentation and policies for details.
 
-Polar Flow / Polar AccessLink
-Polar Flow and the Polar AccessLink API are provided by Polar Electro Oy. When you connect your Polar account, you are redirected to Polar’s website to authorize the app. We do not see your Polar credentials. Polar’s own privacy policy applies to your Polar data.
+---
 
-WHOOP
-WHOOP is provided by WHOOP, Inc. When you connect your WHOOP account, you are redirected to WHOOP’s authorization page. We do not see your WHOOP credentials. WHOOP’s official Terms of Use and Privacy Policy apply to your WHOOP data.
+### 4. Backups and files
 
-6. Legal Basis (EU / GDPR)
-Our legal basis for processing your data is:
+The app can export a backup file (JSON) that contains your training and race data.  
+If you save this file for example in iCloud Drive, Dropbox or on your computer, it will be stored under the privacy rules of those services.
 
-Art. 6(1)(b) GDPR – performance of a contract: providing the core functionality of the app.
+I do **not** have access to those backups unless you explicitly send them to me (for example for support).
 
-Art. 6(1)(a) GDPR – consent: for all optional integrations (Apple Health, Polar, WHOOP) you actively choose to enable.
+---
 
-You can revoke your consent at any time by:
+### 5. Analytics, tracking and advertising
 
-Disconnecting Polar / WHOOP in the app (if implemented)
+- The app does **not** use third-party analytics SDKs (e.g. Google Analytics, Firebase Analytics).  
+- The app does **not** show advertisements.  
+- The app does **not** track you across apps or websites.
 
-Revoking Apple Health permissions in the iOS settings
+Apple may collect basic, anonymised usage data about crashes and app usage if you have enabled this system-wide in iOS. I do not see any personally identifiable information in those reports.
 
-Deleting the app and, if desired, deleting backups containing app data.
+---
 
-7. Your Rights (EU Residents)
-Under GDPR you may have the right to:
+### 6. Children
 
-Access the personal data we store about you
+The app is not designed for children under the age required by local law to give consent to data processing.  
+If you are a parent or guardian and believe a child is using the app inappropriately, please contact me.
 
-Request correction or deletion of your data
+---
 
-Restrict or object to certain types of processing
+### 7. Your choices
 
-Data portability
+You can:
 
-Since all data is stored on your own device, you mainly control it by managing or deleting it directly in the app or by deleting the app itself.
+- Remove Health permissions at any time in the **Apple Health** app.
+- Delete all app data by deleting the app from your device.
+- Export your data as a backup file and keep it for yourself.
 
-You can also contact us at [your-email@example.com
-] if you have questions about your data.
+I do not keep any separate copy of your data on my own servers.
 
-8. Changes to This Policy
-We may update this privacy policy from time to time if we add new features (e.g. cloud sync or additional integrations). The most recent version will always be available at this URL.
+---
+
+### 8. Changes to this policy
+
+I may update this privacy policy from time to time, for example when new features are added.  
+The current version will always be available on this page.
+
+---
+
+### 9. Contact
+
+If you have any questions about this privacy policy or about the app, please contact:
+
+**Laurin Korber-Perner**  
+Email: [lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com)
